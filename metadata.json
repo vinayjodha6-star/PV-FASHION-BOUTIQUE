@@ -1,0 +1,6 @@
+{
+  "name": "PV Fashion Boutique",
+  "description": "PV Fashion Boutique (पीवी फैशन बुटीक) — Clothing Store & Fashion Boutique in Hans Colony, Fatehabad, Haryana. Style, elegance, and fashion experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

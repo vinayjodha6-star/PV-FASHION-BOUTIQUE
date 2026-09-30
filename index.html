@@ -1,0 +1,2001 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PV Fashion Boutique | पीवी फैशन बुटीक — Fatehabad, Haryana</title>
+    <meta
+      name="description"
+      content="Discover a refined fashion experience at PV Fashion Boutique (पीवी फैशन बुटीक), Girls College Street, Hans Colony, Fatehabad, Haryana 125050. Phone: 07496004858."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PV Fashion Boutique | पीवी फैशन बुटीक — Fatehabad" />
+    <meta
+      property="og:description"
+      content="Style that feels like you. Discover a refined fashion experience at PV Fashion Boutique, Hans Colony, Fatehabad, Haryana."
+    />
+    <meta property="og:site_name" content="PV Fashion Boutique" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PV Fashion Boutique | पीवी फैशन बुटीक — Fatehabad" />
+    <meta
+      name="twitter:description"
+      content="Clothing Store & Fashion Boutique in Girls College Street, Hans Colony, Fatehabad. Rated 5/5 on Google."
+    />
+    <meta name="theme-color" content="#0b0b0d" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Rozha+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Three.js CDN for interactive 3D fashion visual -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Schema.org JSON-LD Structured Data for Local Business / Clothing Store -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ClothingStore",
+        "name": "PV Fashion Boutique",
+        "alternateName": "पीवी फैशन बुटीक",
+        "description": "PV Fashion Boutique is a local clothing store in Hans Colony, Fatehabad, offering a dedicated destination for fashion and style.",
+        "telephone": "+917496004858",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Girls College Street, Hans Colony",
+          "addressLocality": "Fatehabad",
+          "addressRegion": "Haryana",
+          "postalCode": "125050",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "29.5165",
+          "longitude": "75.4528"
+        },
+        "hasMap": "https://maps.app.goo.gl/AEMQtzfGFPkkg78v8",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "ratingCount": "5"
+        },
+        "priceRange": "$$"
+      }
+    </script>
+
+    <style>
+      :root {
+        --color-bg: #09090b;
+        --color-bg-secondary: #111115;
+        --color-bg-surface: #17171d;
+        --color-gold: #d4af37;
+        --color-gold-light: #f3df95;
+        --color-gold-muted: #9e8232;
+        --color-ivory: #faf8f5;
+        --color-ivory-dim: #d8d3c8;
+        --color-sand: #beb8ab;
+        --color-border: rgba(212, 175, 55, 0.18);
+        --color-border-subtle: rgba(255, 255, 255, 0.08);
+        --font-serif: 'Playfair Display', Georgia, serif;
+        --font-editorial: 'Cormorant Garamond', Georgia, serif;
+        --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-hindi: 'Rozha One', 'Playfair Display', serif;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        background-color: var(--color-bg);
+        color: var(--color-ivory);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body {
+        overflow-x: hidden;
+        background-color: var(--color-bg);
+        background-image: 
+          radial-gradient(ellipse 80% 50% at 50% -10%, rgba(212, 175, 55, 0.09), transparent 70%),
+          radial-gradient(ellipse 60% 40% at 80% 60%, rgba(200, 160, 100, 0.04), transparent 60%);
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+
+      ::selection {
+        background-color: var(--color-gold);
+        color: #000;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #09090b;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #2b2b35;
+        border-radius: 4px;
+        border: 1px solid var(--color-border);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-gold-muted);
+      }
+
+      /* Typography Utilities */
+      .font-serif { font-family: var(--font-serif); }
+      .font-editorial { font-family: var(--font-editorial); }
+      .font-sans { font-family: var(--font-sans); }
+      .font-hindi { font-family: var(--font-hindi); }
+
+      .gold-gradient-text {
+        background: linear-gradient(135deg, #fff2cf 0%, #d4af37 50%, #aa821f 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .text-balance {
+        text-wrap: balance;
+      }
+
+      /* Structural Containers */
+      .container-luxury {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+      }
+      @media (min-width: 768px) {
+        .container-luxury {
+          padding: 0 2.5rem;
+        }
+      }
+
+      /* Luxury Hairline Divider */
+      .gold-hairline {
+        height: 1px;
+        background: linear-gradient(90deg, transparent 0%, var(--color-gold) 50%, transparent 100%);
+        opacity: 0.35;
+        width: 100%;
+      }
+
+      /* Buttons */
+      .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        padding: 0.875rem 2rem;
+        background: linear-gradient(135deg, #e3c15d 0%, #c49929 100%);
+        color: #0b0b0d;
+        font-weight: 600;
+        font-size: 0.8125rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        border: 1px solid rgba(255, 230, 160, 0.4);
+        text-decoration: none;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+      .btn-primary::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transition: 0.5s;
+      }
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px -5px rgba(212, 175, 55, 0.4);
+      }
+      .btn-primary:hover::after {
+        left: 100%;
+      }
+
+      .btn-secondary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        padding: 0.875rem 2rem;
+        background: rgba(23, 23, 29, 0.6);
+        color: var(--color-ivory);
+        font-weight: 500;
+        font-size: 0.8125rem;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        border: 1px solid var(--color-border);
+        backdrop-filter: blur(10px);
+        text-decoration: none;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        cursor: pointer;
+      }
+      .btn-secondary:hover {
+        background: rgba(212, 175, 55, 0.12);
+        border-color: var(--color-gold);
+        color: #fff;
+        transform: translateY(-2px);
+      }
+
+      /* Navbar */
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        transition: all 0.4s ease;
+        background: rgba(9, 9, 11, 0.7);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid var(--color-border-subtle);
+      }
+      .navbar.scrolled {
+        background: rgba(9, 9, 11, 0.94);
+        border-bottom: 1px solid var(--color-border);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      }
+      .nav-link {
+        color: var(--color-ivory-dim);
+        font-size: 0.8125rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        position: relative;
+        padding: 0.4rem 0;
+        transition: color 0.3s ease;
+      }
+      .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--color-gold);
+        transition: width 0.3s ease;
+      }
+      .nav-link:hover {
+        color: #ffffff;
+      }
+      .nav-link:hover::after {
+        width: 100%;
+      }
+
+      /* Mobile Navigation Overlay */
+      .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(9, 9, 11, 0.98);
+        backdrop-filter: blur(20px);
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s ease;
+      }
+      .mobile-menu.open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .mobile-menu a {
+        font-family: var(--font-serif);
+        font-size: 1.75rem;
+        color: var(--color-ivory);
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      .mobile-menu a:hover {
+        color: var(--color-gold);
+      }
+
+      /* Hero Section */
+      .hero-section {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        overflow: hidden;
+      }
+      .hero-canvas-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      /* Editorial Card Effects */
+      .editorial-card {
+        background: linear-gradient(180deg, rgba(23, 23, 29, 0.7) 0%, rgba(17, 17, 21, 0.9) 100%);
+        border: 1px solid var(--color-border);
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+        position: relative;
+        overflow: hidden;
+      }
+      .editorial-card:hover {
+        border-color: rgba(212, 175, 55, 0.5);
+        box-shadow: 0 15px 35px -10px rgba(212, 175, 55, 0.15);
+      }
+      .editorial-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(212, 175, 55, 0.08), transparent 60%);
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .editorial-card:hover::before {
+        opacity: 1;
+      }
+
+      /* Asymmetric Gallery */
+      .gallery-item {
+        position: relative;
+        overflow: hidden;
+        background: #111116;
+        border: 1px solid var(--color-border);
+        transition: all 0.4s ease;
+        cursor: pointer;
+      }
+      .gallery-item:hover {
+        border-color: var(--color-gold);
+      }
+      .gallery-item svg {
+        transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .gallery-item:hover svg {
+        transform: scale(1.05);
+      }
+      .gallery-caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1.25rem;
+        background: linear-gradient(to top, rgba(9, 9, 11, 0.95), rgba(9, 9, 11, 0.4) 70%, transparent);
+        transform: translateY(10px);
+        opacity: 0.9;
+        transition: all 0.3s ease;
+      }
+      .gallery-item:hover .gallery-caption {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      /* Stylized 3D Map Visual */
+      .stylized-map-frame {
+        position: relative;
+        width: 100%;
+        height: 380px;
+        background: #0d0d12;
+        border: 1px solid var(--color-border);
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      }
+
+      /* Floating WhatsApp Button */
+      .floating-whatsapp {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        z-index: 990;
+        width: 58px;
+        height: 58px;
+        background: #121217;
+        border: 1.5px solid var(--color-gold);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #25d366;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        text-decoration: none;
+      }
+      .floating-whatsapp:hover {
+        transform: scale(1.1);
+        background: #1b1b22;
+        box-shadow: 0 12px 30px rgba(37, 211, 102, 0.3);
+      }
+      .floating-whatsapp-pulse {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid rgba(212, 175, 55, 0.6);
+        animation: pulseRing 2.5s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+        pointer-events: none;
+      }
+      @keyframes pulseRing {
+        0% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.4); opacity: 0; }
+        100% { transform: scale(1.4); opacity: 0; }
+      }
+
+      /* Reveal Animation Utility */
+      .reveal-on-scroll {
+        opacity: 0;
+        transform: translateY(24px);
+        transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .reveal-on-scroll.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Lightbox Modal */
+      .lightbox-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(9, 9, 11, 0.95);
+        backdrop-filter: blur(12px);
+        z-index: 2000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .lightbox-modal.active {
+        display: flex;
+      }
+
+      /* Reduced motion support */
+      @media (prefers-reduced-motion: reduce) {
+        *, ::before, ::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar" id="mainNavbar">
+      <div class="container-luxury" style="display: flex; align-items: center; justify-content: space-between; height: 4.75rem;">
+        <!-- Brand Zone -->
+        <a href="#home" style="text-decoration: none; display: flex; flex-direction: column;">
+          <span class="font-serif" style="font-size: 1.15rem; font-weight: 700; letter-spacing: 0.18em; color: var(--color-ivory);">
+            PV FASHION BOUTIQUE
+          </span>
+          <span class="font-hindi" style="font-size: 0.8rem; letter-spacing: 0.06em; color: var(--color-gold); margin-top: -2px;">
+            पीवी फैशन बुटीक
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav style="display: none; align-items: center; gap: 2.25rem;" class="desktop-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#style" class="nav-link">Style</a>
+          <a href="#visual3d" class="nav-link">Form</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#visit" class="nav-link">Visit Us</a>
+        </nav>
+
+        <!-- Right Side CTA & Mobile Toggle -->
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <a
+            href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary"
+            style="padding: 0.65rem 1.4rem; font-size: 0.75rem;"
+          >
+            <span>Get Directions</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M7 17L17 7M17 7H7M17 7V17" />
+            </svg>
+          </a>
+
+          <!-- Hamburger Button (Mobile) -->
+          <button
+            id="mobileMenuBtn"
+            aria-label="Toggle menu"
+            style="background: transparent; border: 1px solid var(--color-border); color: var(--color-ivory); width: 40px; height: 40px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; cursor: pointer; border-radius: 4px;"
+            class="mobile-toggle-btn"
+          >
+            <span style="width: 20px; height: 1.5px; background: var(--color-ivory); transition: 0.3s;" id="bar1"></span>
+            <span style="width: 14px; height: 1.5px; background: var(--color-gold); transition: 0.3s;" id="bar2"></span>
+            <span style="width: 20px; height: 1.5px; background: var(--color-ivory); transition: 0.3s;" id="bar3"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div style="text-align: center; margin-bottom: 1rem;">
+        <span class="font-serif gold-gradient-text" style="font-size: 1.5rem; letter-spacing: 0.15em; font-weight: 700;">
+          PV FASHION BOUTIQUE
+        </span>
+        <div class="font-hindi" style="color: var(--color-gold); font-size: 1rem; margin-top: 0.25rem;">
+          पीवी फैशन बुटीक
+        </div>
+      </div>
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#style" class="mobile-link">Style</a>
+      <a href="#visual3d" class="mobile-link">3D Form</a>
+      <a href="#gallery" class="mobile-link">Gallery</a>
+      <a href="#visit" class="mobile-link">Visit Us</a>
+      <a
+        href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn-primary"
+        style="margin-top: 1.5rem; width: 220px;"
+      >
+        Get Directions
+      </a>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO SECTION -->
+      <section id="home" class="hero-section">
+        <!-- Interactive 3D Canvas Background -->
+        <div class="hero-canvas-container" id="heroCanvasWrap">
+          <canvas id="heroCanvas"></canvas>
+        </div>
+
+        <div class="container-luxury hero-content">
+          <!-- Small Label -->
+          <div
+            class="reveal-on-scroll"
+            style="display: inline-flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold);"
+          >
+            <span>FASHION</span>
+            <span style="color: var(--color-sand);">•</span>
+            <span>STYLE</span>
+            <span style="color: var(--color-sand);">•</span>
+            <span>ELEGANCE</span>
+          </div>
+
+          <!-- Brand Moniker & Hindi Name -->
+          <div class="reveal-on-scroll" style="margin-bottom: 1.5rem;">
+            <h1
+              class="font-serif gold-gradient-text"
+              style="font-size: clamp(2.4rem, 6vw, 4.5rem); font-weight: 800; letter-spacing: 0.12em; line-height: 1.05; text-transform: uppercase;"
+            >
+              PV FASHION BOUTIQUE
+            </h1>
+            <div
+              class="font-hindi"
+              style="font-size: clamp(1.25rem, 3vw, 1.85rem); color: var(--color-ivory-dim); letter-spacing: 0.08em; margin-top: 0.5rem;"
+            >
+              पीवी फैशन बुटीक
+            </div>
+          </div>
+
+          <!-- Editorial Headline -->
+          <div class="reveal-on-scroll" style="margin-bottom: 1.5rem;">
+            <p
+              class="font-serif text-balance"
+              style="font-size: clamp(1.75rem, 4vw, 3rem); font-weight: 400; line-height: 1.2; color: var(--color-ivory); letter-spacing: -0.01em;"
+            >
+              STYLE THAT<br />
+              FEELS LIKE YOU.
+            </p>
+          </div>
+
+          <!-- Supporting Text -->
+          <p
+            class="reveal-on-scroll text-balance"
+            style="font-size: clamp(0.95rem, 1.5vw, 1.15rem); color: var(--color-sand); max-width: 620px; margin: 0 auto 2.5rem; font-weight: 300; line-height: 1.7;"
+          >
+            Discover a refined fashion experience at PV Fashion Boutique, Fatehabad.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="reveal-on-scroll" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; align-items: center;">
+            <a href="#visit" class="btn-primary">
+              <span>VISIT STORE</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7" />
+              </svg>
+            </a>
+            <a
+              href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-secondary"
+            >
+              <span>GET DIRECTIONS</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Verified Google Review Marker -->
+          <div
+            class="reveal-on-scroll"
+            style="margin-top: 3.5rem; display: inline-flex; align-items: center; gap: 0.75rem; padding: 0.5rem 1.25rem; background: rgba(23, 23, 29, 0.4); border: 1px solid var(--color-border); border-radius: 40px;"
+          >
+            <div style="display: flex; gap: 2px; color: var(--color-gold);">
+              ★ ★ ★ ★ ★
+            </div>
+            <span style="font-size: 0.8125rem; font-weight: 600; color: var(--color-ivory);">
+              5 / 5
+            </span>
+            <span style="font-size: 0.8125rem; color: var(--color-sand);">
+              · 5 Reviews on Google
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" style="padding: 7rem 0; position: relative;">
+        <div class="container-luxury">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 4rem; align-items: center;">
+            <!-- Left Editorial Text Column -->
+            <div class="reveal-on-scroll">
+              <span
+                style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+              >
+                THE BOUTIQUE EXPERIENCE
+              </span>
+              <h2
+                class="font-serif gold-gradient-text"
+                style="font-size: clamp(2rem, 3.5vw, 3.25rem); font-weight: 700; line-height: 1.15; margin-bottom: 0.5rem;"
+              >
+                Refined Elegance in Fatehabad
+              </h2>
+              <div class="font-hindi" style="font-size: 1.25rem; color: var(--color-sand); margin-bottom: 1.5rem;">
+                पीवी फैशन बुटीक
+              </div>
+
+              <div class="gold-hairline" style="margin-bottom: 2rem;"></div>
+
+              <p
+                class="font-editorial"
+                style="font-size: 1.45rem; line-height: 1.6; color: var(--color-ivory); margin-bottom: 1.75rem; font-style: italic;"
+              >
+                "PV Fashion Boutique is a local clothing store in Hans Colony, Fatehabad, offering a dedicated destination for fashion and style."
+              </p>
+
+              <div style="display: flex; flex-direction: column; gap: 1rem; color: var(--color-sand); font-size: 0.9375rem;">
+                <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
+                  <span style="color: var(--color-gold); font-size: 1.1rem; line-height: 1;">📍</span>
+                  <span>GC2H+VFJ, Girls College Street, Hans Colony, Fatehabad, Haryana 125050</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                  <span style="color: var(--color-gold); font-size: 1.1rem; line-height: 1;">📞</span>
+                  <a href="tel:07496004858" style="color: var(--color-ivory); text-decoration: none; font-weight: 600;">
+                    07496004858
+                  </a>
+                </div>
+                <div style="display: flex; align-items: center; gap: 0.75rem;">
+                  <span style="color: var(--color-gold); font-size: 1.1rem; line-height: 1;">⭐</span>
+                  <span style="color: var(--color-ivory); font-weight: 600;">5 / 5 — 5 Reviews</span>
+                </div>
+              </div>
+
+              <div style="margin-top: 2.5rem;">
+                <a href="#visit" class="btn-primary">
+                  <span>Visit Store Today</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Editorial Fashion Composition -->
+            <div class="reveal-on-scroll" style="position: relative;">
+              <div
+                class="editorial-card"
+                style="padding: 1rem; border-radius: 4px; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7);"
+              >
+                <div style="position: relative; width: 100%; aspect-ratio: 4/5; overflow: hidden; background: #0c0c10;">
+                  <!-- Fashion Editorial SVG Artwork (Vector Haute Silhouette & Golden Drape) -->
+                  <svg
+                    viewBox="0 0 500 625"
+                    style="width: 100%; height: 100%; object-fit: cover; display: block;"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs>
+                      <linearGradient id="fabricGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#241e12" />
+                        <stop offset="40%" stop-color="#15151c" />
+                        <stop offset="100%" stop-color="#0a0a0d" />
+                      </linearGradient>
+                      <linearGradient id="goldThread" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#8c6d23" />
+                        <stop offset="50%" stop-color="#f5e08b" />
+                        <stop offset="100%" stop-color="#b58c2f" />
+                      </linearGradient>
+                      <linearGradient id="silkFlow" x1="20%" y1="0%" x2="80%" y2="100%">
+                        <stop offset="0%" stop-color="#2a241b" stop-opacity="0.9" />
+                        <stop offset="50%" stop-color="#141419" stop-opacity="0.95" />
+                        <stop offset="100%" stop-color="#0a0a0c" stop-opacity="1" />
+                      </linearGradient>
+                      <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="15" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                      </filter>
+                    </defs>
+
+                    <!-- Background Atmospheric Tone -->
+                    <rect width="500" height="625" fill="#0c0d12" />
+                    <circle cx="250" cy="180" r="160" fill="#d4af37" opacity="0.08" filter="url(#softGlow)" />
+
+                    <!-- Abstract Haute Couture Mannequin & Flowing Silks -->
+                    <!-- Flowing Background Fabric Ribbons -->
+                    <path
+                      d="M 120 625 Q 160 400 240 320 T 380 180 Q 420 280 440 625 Z"
+                      fill="url(#fabricGrad1)"
+                      opacity="0.8"
+                    />
+                    <path
+                      d="M 60 625 C 100 480 200 380 230 280 C 260 180 340 120 400 625 Z"
+                      fill="url(#silkFlow)"
+                    />
+
+                    <!-- Tailored Bodice & Silhouette Lines -->
+                    <path
+                      d="M 215 170 Q 250 160 285 170 L 300 250 Q 250 270 200 250 Z"
+                      fill="#1e1c18"
+                      stroke="url(#goldThread)"
+                      stroke-width="1.5"
+                    />
+                    <!-- Neckline & Architectural Collar -->
+                    <path
+                      d="M 230 140 L 250 165 L 270 140"
+                      fill="none"
+                      stroke="url(#goldThread)"
+                      stroke-width="2"
+                    />
+
+                    <!-- Graceful Cascading Folds -->
+                    <path
+                      d="M 200 250 Q 220 380 160 625"
+                      fill="none"
+                      stroke="url(#goldThread)"
+                      stroke-width="1.2"
+                      opacity="0.7"
+                    />
+                    <path
+                      d="M 250 265 Q 260 420 250 625"
+                      fill="none"
+                      stroke="url(#goldThread)"
+                      stroke-width="1.5"
+                      opacity="0.85"
+                    />
+                    <path
+                      d="M 300 250 Q 280 400 350 625"
+                      fill="none"
+                      stroke="url(#goldThread)"
+                      stroke-width="1.2"
+                      opacity="0.7"
+                    />
+                    <path
+                      d="M 270 320 Q 320 460 380 625"
+                      fill="none"
+                      stroke="url(#goldThread)"
+                      stroke-width="0.8"
+                      opacity="0.5"
+                    />
+
+                    <!-- Accent Halo & Spark -->
+                    <circle cx="250" cy="140" r="4" fill="#f5e08b" />
+                    <line x1="250" y1="110" x2="250" y2="130" stroke="url(#goldThread)" stroke-width="1" />
+                    <line x1="230" y1="140" x2="270" y2="140" stroke="url(#goldThread)" stroke-width="0.8" />
+                  </svg>
+
+                  <!-- Caption Overlay -->
+                  <div
+                    style="position: absolute; bottom: 0; left: 0; right: 0; padding: 1.5rem; background: linear-gradient(to top, #09090b 20%, transparent); display: flex; justify-content: space-between; align-items: flex-end;"
+                  >
+                    <div>
+                      <div class="font-serif" style="font-size: 1.15rem; color: #fff; font-weight: 600;">
+                        PV Fashion Boutique
+                      </div>
+                      <div style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                        Visual Inspiration · Editorial Silhouette
+                      </div>
+                    </div>
+                    <span style="font-size: 0.7rem; color: var(--color-sand); letter-spacing: 0.1em;">
+                      FATEHABAD
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Decorative Badge -->
+              <div
+                style="position: absolute; -top: 1.5rem; -right: 1.5rem; background: rgba(18, 18, 23, 0.95); border: 1px solid var(--color-gold); padding: 0.85rem 1.25rem; border-radius: 4px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);"
+              >
+                <div class="font-hindi" style="color: var(--color-gold); font-size: 0.95rem; font-weight: 700;">
+                  पीवी फैशन
+                </div>
+                <div style="font-size: 0.7rem; color: var(--color-ivory-dim); letter-spacing: 0.1em; text-transform: uppercase;">
+                  Hans Colony
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STYLE SECTION -->
+      <section id="style" style="padding: 7rem 0; background: var(--color-bg-secondary); position: relative;">
+        <div class="container-luxury">
+          <!-- Section Header -->
+          <div class="reveal-on-scroll" style="text-align: center; max-width: 700px; margin: 0 auto 4.5rem;">
+            <span
+              style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+            >
+              FASHION PHILOSOPHY
+            </span>
+            <h2
+              class="font-serif gold-gradient-text"
+              style="font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 700; line-height: 1.15; text-transform: uppercase;"
+            >
+              YOUR STYLE. YOUR STATEMENT.
+            </h2>
+            <div class="gold-hairline" style="margin: 1.5rem auto; max-width: 140px;"></div>
+            <p style="color: var(--color-sand); font-size: 1rem; font-weight: 300;">
+              Discover an intentional aesthetic that honors individuality, poise, and personal refinement.
+            </p>
+          </div>
+
+          <!-- 4 Fashion Cards -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+            <!-- Card 01 — STYLE -->
+            <div class="editorial-card reveal-on-scroll" style="padding: 2.25rem 1.75rem; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2rem;">
+                  <span class="font-serif" style="font-size: 2.25rem; font-weight: 700; color: var(--color-gold); opacity: 0.85;">
+                    01
+                  </span>
+                  <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sand);">
+                    ESSENCE
+                  </span>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; height: 110px; display: flex; align-items: center; justify-content: center; background: rgba(9, 9, 12, 0.6); border: 1px solid var(--color-border-subtle); border-radius: 2px;">
+                  <!-- Style Geometric Icon/Illustration -->
+                  <svg width="64" height="64" viewBox="0 0 100 100" fill="none" stroke="currentColor">
+                    <circle cx="50" cy="50" r="42" stroke="var(--color-gold)" stroke-width="1" stroke-dasharray="2 4" />
+                    <polygon points="50,15 80,75 20,75" stroke="var(--color-gold)" stroke-width="1.5" />
+                    <line x1="50" y1="15" x2="50" y2="75" stroke="var(--color-ivory)" stroke-width="1" opacity="0.6" />
+                  </svg>
+                </div>
+
+                <h3 class="font-serif" style="font-size: 1.5rem; color: var(--color-ivory); margin-bottom: 0.75rem; letter-spacing: 0.05em;">
+                  STYLE
+                </h3>
+                <p class="font-editorial" style="font-size: 1.25rem; color: var(--color-ivory-dim); line-height: 1.5; font-style: italic;">
+                  "Explore fashion that reflects your personal style."
+                </p>
+              </div>
+
+              <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                PV Fashion Boutique
+              </div>
+            </div>
+
+            <!-- Card 02 — ELEGANCE -->
+            <div class="editorial-card reveal-on-scroll" style="padding: 2.25rem 1.75rem; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2rem;">
+                  <span class="font-serif" style="font-size: 2.25rem; font-weight: 700; color: var(--color-gold); opacity: 0.85;">
+                    02
+                  </span>
+                  <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sand);">
+                    GRACE
+                  </span>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; height: 110px; display: flex; align-items: center; justify-content: center; background: rgba(9, 9, 12, 0.6); border: 1px solid var(--color-border-subtle); border-radius: 2px;">
+                  <!-- Elegance Flowing Curves Icon -->
+                  <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                    <path d="M 20 80 Q 50 10 80 80" stroke="var(--color-gold)" stroke-width="1.5" />
+                    <path d="M 25 70 Q 50 25 75 70" stroke="var(--color-ivory)" stroke-width="1" opacity="0.6" />
+                    <circle cx="50" cy="45" r="5" fill="var(--color-gold)" />
+                  </svg>
+                </div>
+
+                <h3 class="font-serif" style="font-size: 1.5rem; color: var(--color-ivory); margin-bottom: 0.75rem; letter-spacing: 0.05em;">
+                  ELEGANCE
+                </h3>
+                <p class="font-editorial" style="font-size: 1.25rem; color: var(--color-ivory-dim); line-height: 1.5; font-style: italic;">
+                  "Discover an elegant approach to everyday fashion."
+                </p>
+              </div>
+
+              <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                PV Fashion Boutique
+              </div>
+            </div>
+
+            <!-- Card 03 — EXPRESSION -->
+            <div class="editorial-card reveal-on-scroll" style="padding: 2.25rem 1.75rem; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2rem;">
+                  <span class="font-serif" style="font-size: 2.25rem; font-weight: 700; color: var(--color-gold); opacity: 0.85;">
+                    03
+                  </span>
+                  <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sand);">
+                    IDENTITY
+                  </span>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; height: 110px; display: flex; align-items: center; justify-content: center; background: rgba(9, 9, 12, 0.6); border: 1px solid var(--color-border-subtle); border-radius: 2px;">
+                  <!-- Expression Layered Rays Icon -->
+                  <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                    <rect x="25" y="25" width="50" height="50" transform="rotate(45 50 50)" stroke="var(--color-gold)" stroke-width="1.5" />
+                    <rect x="32" y="32" width="36" height="36" transform="rotate(45 50 50)" stroke="var(--color-ivory)" stroke-width="1" opacity="0.6" />
+                    <line x1="15" y1="50" x2="85" y2="50" stroke="var(--color-gold)" stroke-width="0.8" opacity="0.4" />
+                  </svg>
+                </div>
+
+                <h3 class="font-serif" style="font-size: 1.5rem; color: var(--color-ivory); margin-bottom: 0.75rem; letter-spacing: 0.05em;">
+                  EXPRESSION
+                </h3>
+                <p class="font-editorial" style="font-size: 1.25rem; color: var(--color-ivory-dim); line-height: 1.5; font-style: italic;">
+                  "Let your clothing become part of your personal expression."
+                </p>
+              </div>
+
+              <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                PV Fashion Boutique
+              </div>
+            </div>
+
+            <!-- Card 04 — CONFIDENCE -->
+            <div class="editorial-card reveal-on-scroll" style="padding: 2.25rem 1.75rem; border-radius: 4px; display: flex; flex-direction: column; justify-content: space-between;">
+              <div>
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2rem;">
+                  <span class="font-serif" style="font-size: 2.25rem; font-weight: 700; color: var(--color-gold); opacity: 0.85;">
+                    04
+                  </span>
+                  <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-sand);">
+                    PRESENCE
+                  </span>
+                </div>
+
+                <div style="margin-bottom: 1.5rem; height: 110px; display: flex; align-items: center; justify-content: center; background: rgba(9, 9, 12, 0.6); border: 1px solid var(--color-border-subtle); border-radius: 2px;">
+                  <!-- Confidence Crown / Diamond Icon -->
+                  <svg width="64" height="64" viewBox="0 0 100 100" fill="none">
+                    <polygon points="50,20 78,42 66,78 34,78 22,42" stroke="var(--color-gold)" stroke-width="1.5" />
+                    <line x1="50" y1="20" x2="50" y2="78" stroke="var(--color-gold)" stroke-width="1" opacity="0.5" />
+                    <circle cx="50" cy="48" r="4" fill="var(--color-ivory)" />
+                  </svg>
+                </div>
+
+                <h3 class="font-serif" style="font-size: 1.5rem; color: var(--color-ivory); margin-bottom: 0.75rem; letter-spacing: 0.05em;">
+                  CONFIDENCE
+                </h3>
+                <p class="font-editorial" style="font-size: 1.25rem; color: var(--color-ivory-dim); line-height: 1.5; font-style: italic;">
+                  "Choose a look that makes you feel confident."
+                </p>
+              </div>
+
+              <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                PV Fashion Boutique
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3D INTERACTIVE FASHION VISUAL SHOWCASE -->
+      <section id="visual3d" style="padding: 7rem 0; position: relative; overflow: hidden; background: #08080a;">
+        <div class="container-luxury">
+          <div style="text-align: center; max-width: 680px; margin: 0 auto 3rem;">
+            <span
+              style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+            >
+              SPATIAL FASHION CONCEPT
+            </span>
+            <h2
+              class="font-serif gold-gradient-text"
+              style="font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 700; text-transform: uppercase;"
+            >
+              FORM, SILK & GEOMETRY
+            </h2>
+            <p style="color: var(--color-sand); font-size: 0.95rem; margin-top: 0.75rem;">
+              Interactive 3D representation of flowing fabric ribbons, fashion orbits, and harmonic poise. Drag or move your mouse to explore the perspective.
+            </p>
+          </div>
+
+          <!-- 3D Viewport Box -->
+          <div
+            id="spatialContainer"
+            style="position: relative; width: 100%; height: 480px; background: radial-gradient(circle at center, #15151c 0%, #08080a 75%); border: 1px solid var(--color-border); border-radius: 6px; overflow: hidden; box-shadow: 0 30px 70px rgba(0, 0, 0, 0.8); cursor: grab;"
+          >
+            <canvas id="spatialCanvas" style="width: 100%; height: 100%; display: block;"></canvas>
+
+            <!-- Floating Glass Spec Overlay -->
+            <div
+              style="position: absolute; top: 1.5rem; left: 1.5rem; background: rgba(9, 9, 12, 0.75); border: 1px solid var(--color-border); padding: 0.75rem 1.25rem; border-radius: 4px; backdrop-filter: blur(8px); pointer-events: none;"
+            >
+              <div class="font-serif" style="font-size: 0.9rem; color: var(--color-ivory); font-weight: 600;">
+                PV FASHION BOUTIQUE
+              </div>
+              <div class="font-hindi" style="font-size: 0.75rem; color: var(--color-gold);">
+                पीवी फैशन बुटीक
+              </div>
+              <div style="font-size: 0.65rem; color: var(--color-sand); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 4px;">
+                Interactive 3D Canvas
+              </div>
+            </div>
+
+            <!-- Interaction Prompt -->
+            <div
+              style="position: absolute; bottom: 1.5rem; right: 1.5rem; font-size: 0.75rem; color: var(--color-sand); letter-spacing: 0.12em; text-transform: uppercase; background: rgba(9, 9, 12, 0.7); border: 1px solid var(--color-border-subtle); padding: 0.4rem 0.8rem; border-radius: 4px; pointer-events: none;"
+            >
+              Drag to Rotate · Scroll to Zoom
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FASHION GALLERY SECTION -->
+      <section id="gallery" style="padding: 7rem 0; position: relative;">
+        <div class="container-luxury">
+          <!-- Header -->
+          <div class="reveal-on-scroll" style="text-align: center; max-width: 700px; margin: 0 auto 4rem;">
+            <span
+              style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+            >
+              EDITORIAL CURATION
+            </span>
+            <h2
+              class="font-serif gold-gradient-text"
+              style="font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 700; text-transform: uppercase;"
+            >
+              FASHION IN FOCUS
+            </h2>
+            <div class="gold-hairline" style="margin: 1.5rem auto; max-width: 140px;"></div>
+            <p style="color: var(--color-sand); font-size: 0.95rem; font-weight: 300;">
+              Visual inspiration highlighting contemporary textures, silhouettes, and refined couture moods.
+            </p>
+            <div style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--color-gold-muted); letter-spacing: 0.1em; text-transform: uppercase;">
+              *Visual Inspiration · Editorial Showcase
+            </div>
+          </div>
+
+          <!-- Asymmetric Fashion Magazine Grid -->
+          <div style="display: grid; grid-template-columns: repeat(12, 1fr); gap: 1.5rem;">
+            <!-- Gallery Item 1: Large Feature (Span 7 cols) -->
+            <div
+              class="gallery-item reveal-on-scroll"
+              style="grid-column: span 12; aspect-ratio: 16/10; border-radius: 4px;"
+              onclick="openLightbox('The Nocturne Drape', 'Visual inspiration exploring deep charcoal silhouettes and brushed champagne gold lines.')"
+            >
+              <!-- Vector Editorial Visual -->
+              <svg viewBox="0 0 800 500" style="width: 100%; height: 100%; display: block;" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#191922" />
+                    <stop offset="50%" stop-color="#0f0f15" />
+                    <stop offset="100%" stop-color="#060608" />
+                  </linearGradient>
+                  <linearGradient id="gGold" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#80621e" />
+                    <stop offset="50%" stop-color="#f4de86" />
+                    <stop offset="100%" stop-color="#b68c2d" />
+                  </linearGradient>
+                </defs>
+                <rect width="800" height="500" fill="url(#g1)" />
+                <path d="M 0 350 Q 250 180 400 320 T 800 150 L 800 500 L 0 500 Z" fill="#13131b" />
+                <path d="M 100 500 Q 300 240 500 360 T 800 220" fill="none" stroke="url(#gGold)" stroke-width="1.8" />
+                <path d="M 180 500 Q 350 290 550 400 T 800 290" fill="none" stroke="url(#gGold)" stroke-width="1" opacity="0.6" />
+                
+                <!-- Silhouette Art -->
+                <circle cx="580" cy="180" r="120" fill="#d4af37" opacity="0.06" />
+                <path d="M 520 200 Q 560 120 600 200 L 640 450 Q 560 480 480 450 Z" fill="#1b1b26" stroke="url(#gGold)" stroke-width="1.2" />
+                <line x1="560" y1="200" x2="560" y2="460" stroke="url(#gGold)" stroke-width="1" opacity="0.7" />
+              </svg>
+              <div class="gallery-caption">
+                <span style="font-size: 0.7rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                  Editorial Silhouette
+                </span>
+                <div class="font-serif" style="font-size: 1.35rem; color: #fff; font-weight: 600;">
+                  The Nocturne Drape
+                </div>
+                <div style="font-size: 0.75rem; color: var(--color-sand);">
+                  Visual Inspiration · PV Fashion Boutique
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 2: Medium Portrait (Span 6 cols) -->
+            <div
+              class="gallery-item reveal-on-scroll"
+              style="grid-column: span 12; aspect-ratio: 4/3; border-radius: 4px;"
+              onclick="openLightbox('Champagne Filament', 'Delicate gold woven thread motif symbolizing tailored craftsmanship.')"
+            >
+              <svg viewBox="0 0 600 450" style="width: 100%; height: 100%; display: block;" xmlns="http://www.w3.org/2000/svg">
+                <rect width="600" height="450" fill="#101016" />
+                <g transform="translate(100, 50)">
+                  <ellipse cx="200" cy="175" rx="160" ry="110" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.3" transform="rotate(-25 200 175)" />
+                  <ellipse cx="200" cy="175" rx="130" ry="90" fill="none" stroke="var(--color-gold)" stroke-width="1.5" transform="rotate(-15 200 175)" />
+                  <ellipse cx="200" cy="175" rx="100" ry="70" fill="none" stroke="#fff" stroke-width="0.8" opacity="0.6" transform="rotate(-5 200 175)" />
+                </g>
+                <circle cx="300" cy="225" r="5" fill="var(--color-gold)" />
+              </svg>
+              <div class="gallery-caption">
+                <span style="font-size: 0.7rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                  Textile Geometry
+                </span>
+                <div class="font-serif" style="font-size: 1.25rem; color: #fff; font-weight: 600;">
+                  Champagne Filament
+                </div>
+                <div style="font-size: 0.75rem; color: var(--color-sand);">
+                  Visual Inspiration · PV Fashion Boutique
+                </div>
+              </div>
+            </div>
+
+            <!-- Gallery Item 3: Medium Portrait (Span 6 cols) -->
+            <div
+              class="gallery-item reveal-on-scroll"
+              style="grid-column: span 12; aspect-ratio: 4/3; border-radius: 4px;"
+              onclick="openLightbox('Harmonic Tailoring', 'Balanced architectural lines reflecting poise and presence.')"
+            >
+              <svg viewBox="0 0 600 450" style="width: 100%; height: 100%; display: block;" xmlns="http://www.w3.org/2000/svg">
+                <rect width="600" height="450" fill="#0d0d12" />
+                <line x1="150" y1="50" x2="450" y2="400" stroke="var(--color-gold)" stroke-width="2" />
+                <line x1="450" y1="50" x2="150" y2="400" stroke="var(--color-gold)" stroke-width="1" opacity="0.4" />
+                <rect x="230" y="150" width="140" height="140" fill="#181822" stroke="var(--color-gold)" stroke-width="1.5" transform="rotate(45 300 220)" />
+              </svg>
+              <div class="gallery-caption">
+                <span style="font-size: 0.7rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase;">
+                  Couture Silhouette
+                </span>
+                <div class="font-serif" style="font-size: 1.25rem; color: #fff; font-weight: 600;">
+                  Harmonic Tailoring
+                </div>
+                <div style="font-size: 0.75rem; color: var(--color-sand);">
+                  Visual Inspiration · PV Fashion Boutique
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOCATION SECTION -->
+      <section id="visit" style="padding: 7rem 0; background: var(--color-bg-secondary); position: relative;">
+        <div class="container-luxury">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 4rem; align-items: center;">
+            <!-- Left Info Panel -->
+            <div class="reveal-on-scroll">
+              <span
+                style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+              >
+                LOCATION & VISITING
+              </span>
+              <h2
+                class="font-serif gold-gradient-text"
+                style="font-size: clamp(2rem, 3.5vw, 3.25rem); font-weight: 700; line-height: 1.15; margin-bottom: 0.5rem; text-transform: uppercase;"
+              >
+                VISIT PV FASHION BOUTIQUE
+              </h2>
+              <div class="font-hindi" style="font-size: 1.35rem; color: var(--color-sand); margin-bottom: 1.5rem;">
+                पीवी फैशन बुटीक
+              </div>
+
+              <div class="gold-hairline" style="margin-bottom: 2rem;"></div>
+
+              <!-- Address Block -->
+              <div style="background: rgba(9, 9, 12, 0.6); border: 1px solid var(--color-border); padding: 1.75rem; border-radius: 4px; margin-bottom: 2rem;">
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.25rem;">
+                  <span style="font-size: 1.5rem; line-height: 1;">📍</span>
+                  <div>
+                    <div style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.25rem;">
+                      Boutique Address
+                    </div>
+                    <p style="font-size: 1.05rem; color: var(--color-ivory); font-weight: 500; line-height: 1.6;">
+                      GC2H+VFJ, Girls College Street,<br />
+                      Hans Colony, Fatehabad,<br />
+                      Haryana 125050
+                    </p>
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.25rem;">
+                  <span style="font-size: 1.5rem; line-height: 1;">📞</span>
+                  <div>
+                    <div style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.25rem;">
+                      Direct Phone
+                    </div>
+                    <a
+                      href="tel:07496004858"
+                      style="font-size: 1.25rem; font-weight: 700; color: var(--color-ivory); text-decoration: none;"
+                    >
+                      07496004858
+                    </a>
+                  </div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                  <span style="font-size: 1.5rem; line-height: 1;">⭐</span>
+                  <div>
+                    <div style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.25rem;">
+                      Google Rating
+                    </div>
+                    <div style="font-size: 1.05rem; font-weight: 600; color: var(--color-ivory);">
+                      5 / 5 — 5 Reviews
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                <a href="tel:07496004858" class="btn-primary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  <span>CALL NOW</span>
+                </a>
+                <a
+                  href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-secondary"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                  </svg>
+                  <span>GET DIRECTIONS</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right 3D Stylized Luxury Map Visual -->
+            <div class="reveal-on-scroll">
+              <div class="stylized-map-frame" id="stylizedMap">
+                <!-- SVG Stylized Boutique Map -->
+                <svg
+                  viewBox="0 0 600 380"
+                  style="width: 100%; height: 100%; display: block;"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <defs>
+                    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#0a0a0e" />
+                      <stop offset="100%" stop-color="#14141c" />
+                    </linearGradient>
+                    <radialGradient id="pinGlow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.8" />
+                      <stop offset="60%" stop-color="#d4af37" stop-opacity="0.2" />
+                      <stop offset="100%" stop-color="#d4af37" stop-opacity="0" />
+                    </radialGradient>
+                  </defs>
+
+                  <!-- Background Grid Map -->
+                  <rect width="600" height="380" fill="url(#mapBg)" />
+
+                  <!-- Stylized City Roads (Fatehabad grid) -->
+                  <path d="M 0 120 L 600 120" stroke="#1d1d28" stroke-width="10" />
+                  <path d="M 0 260 L 600 260" stroke="#1d1d28" stroke-width="12" />
+                  <path d="M 180 0 L 180 380" stroke="#1d1d28" stroke-width="8" />
+                  <path d="M 380 0 L 380 380" stroke="#1d1d28" stroke-width="14" />
+                  <path d="M 0 320 Q 300 280 600 340" stroke="#171722" stroke-width="6" />
+
+                  <!-- Girls College Street Avenue (Highlighted Golden Route) -->
+                  <path
+                    d="M 120 380 L 380 180 L 520 80"
+                    fill="none"
+                    stroke="#2e2716"
+                    stroke-width="12"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M 120 380 L 380 180 L 520 80"
+                    fill="none"
+                    stroke="var(--color-gold)"
+                    stroke-width="2.5"
+                    stroke-dasharray="6 6"
+                    stroke-linecap="round"
+                  />
+
+                  <!-- Hans Colony Area Outline -->
+                  <polygon
+                    points="310,120 460,100 480,240 330,260"
+                    fill="#d4af37"
+                    fill-opacity="0.05"
+                    stroke="#d4af37"
+                    stroke-width="1"
+                    stroke-dasharray="3 3"
+                  />
+                  <text x="350" y="145" fill="#888" font-size="10" letter-spacing="2" font-family="sans-serif">
+                    HANS COLONY
+                  </text>
+                  <text x="140" y="360" fill="#777" font-size="9" letter-spacing="1.5" font-family="sans-serif">
+                    GIRLS COLLEGE STREET
+                  </text>
+
+                  <!-- Pulse Ring around Boutique Pin -->
+                  <circle cx="380" cy="180" r="35" fill="url(#pinGlow)">
+                    <animate attributeName="r" values="20;50;20" dur="3s" repeatCount="indefinite" />
+                    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="3s" repeatCount="indefinite" />
+                  </circle>
+
+                  <!-- Boutique Pin Location -->
+                  <circle cx="380" cy="180" r="10" fill="#0b0b0d" stroke="var(--color-gold)" stroke-width="2.5" />
+                  <circle cx="380" cy="180" r="4" fill="var(--color-gold)" />
+
+                  <!-- Boutique Location Callout Badge -->
+                  <g transform="translate(300, 70)">
+                    <rect x="0" y="0" width="190" height="54" rx="4" fill="#09090b" stroke="var(--color-gold)" stroke-width="1.2" />
+                    <text x="14" y="22" fill="#fff" font-size="11" font-weight="bold" font-family="serif">
+                      PV FASHION BOUTIQUE
+                    </text>
+                    <text x="14" y="38" fill="var(--color-gold)" font-size="9" font-family="serif">
+                      पीवी फैशन बुटीक · Fatehabad
+                    </text>
+                  </g>
+
+                  <!-- Fatehabad Main Label -->
+                  <text x="30" y="50" fill="#999" font-size="14" font-weight="700" letter-spacing="3" font-family="serif">
+                    FATEHABAD
+                  </text>
+                  <text x="30" y="68" fill="#555" font-size="9" letter-spacing="1" font-family="sans-serif">
+                    HARYANA · 125050
+                  </text>
+                </svg>
+
+                <!-- Map Stylized Bar & Real Direct Action -->
+                <div
+                  style="position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem 1.5rem; background: rgba(9, 9, 12, 0.92); border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem;"
+                >
+                  <div style="font-size: 0.75rem; color: var(--color-sand);">
+                    Stylized Boutique Interface · Hans Colony, Fatehabad
+                  </div>
+                  <a
+                    href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-primary"
+                    style="padding: 0.5rem 1rem; font-size: 0.75rem;"
+                  >
+                    <span>OPEN GOOGLE MAPS</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" style="padding: 7rem 0; position: relative; background: #08080a;">
+        <div class="container-luxury" style="text-align: center; max-width: 800px;">
+          <div class="reveal-on-scroll">
+            <span
+              style="font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 0.75rem;"
+            >
+              CONNECT WITH US
+            </span>
+            <h2
+              class="font-serif gold-gradient-text"
+              style="font-size: clamp(2.2rem, 4.5vw, 3.5rem); font-weight: 700; text-transform: uppercase; margin-bottom: 0.5rem;"
+            >
+              COME FIND YOUR STYLE
+            </h2>
+            <div class="font-hindi" style="font-size: 1.5rem; color: var(--color-ivory-dim); margin-bottom: 2rem;">
+              पीवी फैशन बुटीक
+            </div>
+
+            <div class="gold-hairline" style="margin: 0 auto 2.5rem; max-width: 160px;"></div>
+
+            <!-- Contact Information Box -->
+            <div
+              class="editorial-card"
+              style="padding: 2.5rem 2rem; border-radius: 4px; margin-bottom: 2.5rem; text-align: center;"
+            >
+              <div class="font-serif" style="font-size: 1.35rem; color: var(--color-ivory); font-weight: 600; margin-bottom: 0.5rem;">
+                PV FASHION BOUTIQUE
+              </div>
+              <p style="color: var(--color-sand); font-size: 1rem; line-height: 1.6; margin-bottom: 1.25rem;">
+                GC2H+VFJ, Girls College Street,<br />
+                Hans Colony, Fatehabad, Haryana 125050
+              </p>
+              <div style="font-size: 1.25rem; font-weight: 700; color: var(--color-gold); margin-bottom: 1.75rem;">
+                Phone: 07496004858
+              </div>
+
+              <!-- 3 Core Action Buttons -->
+              <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+                <a href="tel:07496004858" class="btn-primary">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  <span>CALL NOW</span>
+                </a>
+                <a
+                  href="https://wa.me/917496004858"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-secondary"
+                  style="border-color: rgba(37, 211, 102, 0.4);"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="color: #25d366;">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.29c0-4.49 3.65-8.14 8.14-8.14 2.17 0 4.22.85 5.76 2.38 1.54 1.54 2.38 3.58 2.38 5.76 0 4.49-3.66 8.15-8.14 8.15z" />
+                  </svg>
+                  <span>WHATSAPP</span>
+                </a>
+                <a
+                  href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-secondary"
+                >
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                  </svg>
+                  <span>GET DIRECTIONS</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="background: #060608; border-top: 1px solid var(--color-border); padding: 5rem 0 3rem;">
+      <div class="container-luxury">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 3rem; margin-bottom: 4rem;">
+          <!-- Col 1: Brand & Hindi Name -->
+          <div>
+            <span class="font-serif gold-gradient-text" style="font-size: 1.35rem; font-weight: 700; letter-spacing: 0.15em; display: block;">
+              PV FASHION BOUTIQUE
+            </span>
+            <div class="font-hindi" style="color: var(--color-gold); font-size: 1rem; margin-top: 0.25rem; margin-bottom: 1rem;">
+              पीवी फैशन बुटीक
+            </div>
+            <p style="font-size: 0.875rem; color: var(--color-sand); line-height: 1.6;">
+              Local Clothing Store & Fashion Boutique in Hans Colony, Fatehabad, Haryana.
+            </p>
+            <div style="margin-top: 1.25rem; display: flex; align-items: center; gap: 0.5rem; color: var(--color-gold);">
+              <span>★ ★ ★ ★ ★</span>
+              <span style="color: var(--color-ivory); font-size: 0.8125rem; font-weight: 600;">5 / 5 — 5 Reviews</span>
+            </div>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div>
+            <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 1.25rem;">
+              NAVIGATION
+            </span>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.875rem;">
+              <a href="#home" style="color: var(--color-ivory-dim); text-decoration: none; transition: color 0.2s;">Home</a>
+              <a href="#about" style="color: var(--color-ivory-dim); text-decoration: none; transition: color 0.2s;">About</a>
+              <a href="#style" style="color: var(--color-ivory-dim); text-decoration: none; transition: color 0.2s;">Style</a>
+              <a href="#gallery" style="color: var(--color-ivory-dim); text-decoration: none; transition: color 0.2s;">Gallery</a>
+              <a href="#visit" style="color: var(--color-ivory-dim); text-decoration: none; transition: color 0.2s;">Visit Us</a>
+            </div>
+          </div>
+
+          <!-- Col 3: Address & Phone Contact -->
+          <div>
+            <span style="font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-gold); display: block; margin-bottom: 1.25rem;">
+              VISIT & CONTACT
+            </span>
+            <p style="font-size: 0.875rem; color: var(--color-ivory-dim); line-height: 1.6; margin-bottom: 0.75rem;">
+              GC2H+VFJ, Girls College Street,<br />
+              Hans Colony, Fatehabad, Haryana 125050
+            </p>
+            <div style="font-size: 1rem; font-weight: 700; color: var(--color-gold); margin-bottom: 0.75rem;">
+              📞 <a href="tel:07496004858" style="color: inherit; text-decoration: none;">07496004858</a>
+            </div>
+            <a
+              href="https://maps.app.goo.gl/AEMQtzfGFPkkg78v8"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="font-size: 0.8125rem; color: var(--color-gold); text-decoration: underline; letter-spacing: 0.05em;"
+            >
+              Open on Google Maps →
+            </a>
+          </div>
+        </div>
+
+        <div class="gold-hairline" style="margin-bottom: 2rem;"></div>
+
+        <!-- Copyright -->
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.8125rem; color: var(--color-sand);">
+          <div>
+            © 2026 PV Fashion Boutique. All Rights Reserved.
+          </div>
+          <div>
+            Hans Colony, Fatehabad, Haryana 125050
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a
+      href="https://wa.me/917496004858?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20PV%20Fashion%20Boutique."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="floating-whatsapp"
+      aria-label="Contact PV Fashion Boutique on WhatsApp"
+    >
+      <div class="floating-whatsapp-pulse"></div>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.1 8.1 0 0 1-1.25-4.29c0-4.49 3.65-8.14 8.14-8.14 2.17 0 4.22.85 5.76 2.38 1.54 1.54 2.38 3.58 2.38 5.76 0 4.49-3.66 8.15-8.14 8.15z" />
+      </svg>
+    </a>
+
+    <!-- LIGHTBOX MODAL -->
+    <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+      <div
+        style="position: relative; max-width: 600px; width: 100%; background: #121217; border: 1px solid var(--color-gold); padding: 2rem; border-radius: 4px;"
+        onclick="event.stopPropagation()"
+      >
+        <button
+          onclick="closeLightbox()"
+          style="position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer;"
+        >
+          ✕
+        </button>
+        <div style="font-size: 0.75rem; color: var(--color-gold); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 0.5rem;">
+          PV FASHION BOUTIQUE · INSPIRATION
+        </div>
+        <h3 id="lightboxTitle" class="font-serif" style="font-size: 1.75rem; color: #fff; margin-bottom: 1rem;"></h3>
+        <p id="lightboxDesc" style="color: var(--color-sand); line-height: 1.6; font-size: 0.95rem;"></p>
+        <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--color-border-subtle); display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 0.75rem; color: var(--color-gold-muted);">Hans Colony, Fatehabad</span>
+          <button onclick="closeLightbox()" class="btn-primary" style="padding: 0.4rem 1rem; font-size: 0.75rem;">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC & 3D RENDERERS -->
+    <script>
+      // 1. Mobile Menu Toggle
+      const mobileBtn = document.getElementById('mobileMenuBtn');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+
+      if (mobileBtn && mobileMenu) {
+        mobileBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('open');
+          const isOpen = mobileMenu.classList.contains('open');
+          document.getElementById('bar1').style.transform = isOpen ? 'rotate(45deg) translate(5px, 5px)' : 'none';
+          document.getElementById('bar2').style.opacity = isOpen ? '0' : '1';
+          document.getElementById('bar3').style.transform = isOpen ? 'rotate(-45deg) translate(4px, -5px)' : 'none';
+        });
+
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', () => {
+            mobileMenu.classList.remove('open');
+            document.getElementById('bar1').style.transform = 'none';
+            document.getElementById('bar2').style.opacity = '1';
+            document.getElementById('bar3').style.transform = 'none';
+          });
+        });
+      }
+
+      // Responsive desktop navbar display
+      function checkNavDisplay() {
+        const desktopNav = document.querySelector('.desktop-nav');
+        const mobileToggle = document.querySelector('.mobile-toggle-btn');
+        if (window.innerWidth >= 900) {
+          if (desktopNav) desktopNav.style.display = 'flex';
+          if (mobileToggle) mobileToggle.style.display = 'none';
+        } else {
+          if (desktopNav) desktopNav.style.display = 'none';
+          if (mobileToggle) mobileToggle.style.display = 'flex';
+        }
+      }
+      window.addEventListener('resize', checkNavDisplay);
+      checkNavDisplay();
+
+      // 2. Navbar Scroll Effect
+      const navbar = document.getElementById('mainNavbar');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+
+      // 3. Scroll Reveal Animation
+      const reveals = document.querySelectorAll('.reveal-on-scroll');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          }
+        });
+      }, { threshold: 0.1 });
+      reveals.forEach(el => observer.observe(el));
+
+      // 4. Mouse Flare on Editorial Cards
+      const cards = document.querySelectorAll('.editorial-card');
+      cards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = ((e.clientX - rect.left) / rect.width) * 100;
+          const y = ((e.clientY - rect.top) / rect.height) * 100;
+          card.style.setProperty('--mouse-x', `${x}%`);
+          card.style.setProperty('--mouse-y', `${y}%`);
+        });
+      });
+
+      // 5. Stylized Map 3D Tilt on Hover
+      const mapFrame = document.getElementById('stylizedMap');
+      if (mapFrame) {
+        mapFrame.addEventListener('mousemove', (e) => {
+          const rect = mapFrame.getBoundingClientRect();
+          const x = (e.clientX - rect.left) / rect.width - 0.5;
+          const y = (e.clientY - rect.top) / rect.height - 0.5;
+          mapFrame.style.transform = `perspective(800px) rotateY(${x * 6}deg) rotateX(${-y * 6}deg)`;
+        });
+        mapFrame.addEventListener('mouseleave', () => {
+          mapFrame.style.transform = 'perspective(800px) rotateY(0deg) rotateX(0deg)';
+        });
+      }
+
+      // 6. Lightbox Functions
+      function openLightbox(title, desc) {
+        document.getElementById('lightboxTitle').textContent = title;
+        document.getElementById('lightboxDesc').textContent = desc;
+        document.getElementById('lightboxModal').classList.add('active');
+      }
+      function closeLightbox() {
+        document.getElementById('lightboxModal').classList.remove('active');
+      }
+
+      // 7. Interactive Hero 3D WebGL (Three.js with Canvas Fallback)
+      (function initHero3D() {
+        const canvas = document.getElementById('heroCanvas');
+        if (!canvas) return;
+
+        let mouseX = 0;
+        let mouseY = 0;
+        window.addEventListener('mousemove', (e) => {
+          mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+          mouseY = -(e.clientY / window.innerHeight) * 2 + 1;
+        });
+
+        if (typeof THREE !== 'undefined') {
+          try {
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.z = 7;
+
+            const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+            // Floating Haute Couture Ribbon / Torus Knot Geometry
+            const geometry = new THREE.TorusKnotGeometry(2.1, 0.42, 128, 32, 2, 3);
+            const material = new THREE.MeshStandardMaterial({
+              color: 0x18181f,
+              roughness: 0.35,
+              metalness: 0.85,
+              wireframe: false,
+            });
+            const mesh = new THREE.Mesh(geometry, material);
+            scene.add(mesh);
+
+            // Gold Wire Accent Overlay
+            const wireMaterial = new THREE.MeshBasicMaterial({
+              color: 0xd4af37,
+              wireframe: true,
+              transparent: true,
+              opacity: 0.22,
+            });
+            const wireMesh = new THREE.Mesh(geometry, wireMaterial);
+            mesh.add(wireMesh);
+
+            // Ambient & Point Lighting
+            const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+            scene.add(ambientLight);
+
+            const goldPointLight = new THREE.PointLight(0xd4af37, 2.5, 30);
+            goldPointLight.position.set(4, 5, 6);
+            scene.add(goldPointLight);
+
+            const fillLight = new THREE.PointLight(0xf2e4b8, 1.2, 30);
+            fillLight.position.set(-5, -4, 4);
+            scene.add(fillLight);
+
+            // Floating Silk Particles
+            const particleCount = 120;
+            const particleGeo = new THREE.BufferGeometry();
+            const positions = new Float32Array(particleCount * 3);
+            for (let i = 0; i < particleCount * 3; i += 3) {
+              positions[i] = (Math.random() - 0.5) * 14;
+              positions[i + 1] = (Math.random() - 0.5) * 10;
+              positions[i + 2] = (Math.random() - 0.5) * 10;
+            }
+            particleGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+            const particleMat = new THREE.PointsMaterial({
+              color: 0xd4af37,
+              size: 0.05,
+              transparent: true,
+              opacity: 0.5,
+            });
+            const particles = new THREE.Points(particleGeo, particleMat);
+            scene.add(particles);
+
+            function onResize() {
+              camera.aspect = window.innerWidth / window.innerHeight;
+              camera.updateProjectionMatrix();
+              renderer.setSize(window.innerWidth, window.innerHeight);
+            }
+            window.addEventListener('resize', onResize);
+
+            let clock = new THREE.Clock();
+            function animate() {
+              requestAnimationFrame(animate);
+              const elapsed = clock.getElapsedTime();
+
+              mesh.rotation.x = elapsed * 0.18 + mouseY * 0.4;
+              mesh.rotation.y = elapsed * 0.28 + mouseX * 0.4;
+              particles.rotation.y = elapsed * 0.04;
+
+              renderer.render(scene, camera);
+            }
+            animate();
+            return;
+          } catch (err) {
+            console.warn('Three.js initialization failed, falling back to 2D Canvas:', err);
+          }
+        }
+
+        // 2D Canvas Fallback for Hero
+        const ctx = canvas.getContext('2d');
+        function resize2D() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resize2D);
+        resize2D();
+
+        let angle = 0;
+        function render2D() {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          const cx = canvas.width / 2;
+          const cy = canvas.height / 2;
+          angle += 0.01;
+
+          ctx.save();
+          ctx.translate(cx, cy);
+          ctx.rotate(angle);
+
+          for (let i = 0; i < 4; i++) {
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 220 + i * 20, 90 + i * 15, (i * Math.PI) / 4, 0, Math.PI * 2);
+            ctx.strokeStyle = i % 2 === 0 ? 'rgba(212, 175, 55, 0.18)' : 'rgba(255, 255, 255, 0.05)';
+            ctx.lineWidth = 1.5;
+            ctx.stroke();
+          }
+          ctx.restore();
+          requestAnimationFrame(render2D);
+        }
+        render2D();
+      })();
+
+      // 8. Dedicated Interactive 3D Spatial Form Canvas (Three.js)
+      (function initSpatial3D() {
+        const container = document.getElementById('spatialContainer');
+        const canvas = document.getElementById('spatialCanvas');
+        if (!container || !canvas) return;
+
+        let isDragging = false;
+        let prevMouseX = 0;
+        let prevMouseY = 0;
+        let rotX = 0.4;
+        let rotY = 0.6;
+
+        container.addEventListener('mousedown', (e) => {
+          isDragging = true;
+          prevMouseX = e.clientX;
+          prevMouseY = e.clientY;
+          container.style.cursor = 'grabbing';
+        });
+
+        window.addEventListener('mouseup', () => {
+          isDragging = false;
+          if (container) container.style.cursor = 'grab';
+        });
+
+        window.addEventListener('mousemove', (e) => {
+          if (!isDragging) return;
+          const deltaX = e.clientX - prevMouseX;
+          const deltaY = e.clientY - prevMouseY;
+          rotY += deltaX * 0.01;
+          rotX += deltaY * 0.01;
+          prevMouseX = e.clientX;
+          prevMouseY = e.clientY;
+        });
+
+        // Touch support
+        container.addEventListener('touchstart', (e) => {
+          if (e.touches.length === 1) {
+            isDragging = true;
+            prevMouseX = e.touches[0].clientX;
+            prevMouseY = e.touches[0].clientY;
+          }
+        }, { passive: true });
+
+        window.addEventListener('touchmove', (e) => {
+          if (!isDragging || e.touches.length !== 1) return;
+          const deltaX = e.touches[0].clientX - prevMouseX;
+          const deltaY = e.touches[0].clientY - prevMouseY;
+          rotY += deltaX * 0.01;
+          rotX += deltaY * 0.01;
+          prevMouseX = e.touches[0].clientX;
+          prevMouseY = e.touches[0].clientY;
+        }, { passive: true });
+
+        window.addEventListener('touchend', () => {
+          isDragging = false;
+        });
+
+        if (typeof THREE !== 'undefined') {
+          try {
+            const width = container.clientWidth || 800;
+            const height = container.clientHeight || 480;
+
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100);
+            camera.position.set(0, 0, 6.5);
+
+            const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+            renderer.setSize(width, height);
+            renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+            // Fashion Ribbon Core: Torus with gold materials
+            const group = new THREE.Group();
+            scene.add(group);
+
+            // Ring 1 (Gold)
+            const ringGeo1 = new THREE.TorusGeometry(1.8, 0.06, 16, 100);
+            const goldMat = new THREE.MeshStandardMaterial({
+              color: 0xd4af37,
+              metalness: 0.9,
+              roughness: 0.2,
+            });
+            const ring1 = new THREE.Mesh(ringGeo1, goldMat);
+            ring1.rotation.x = Math.PI / 3;
+            group.add(ring1);
+
+            // Ring 2 (Dark Silk)
+            const ringGeo2 = new THREE.TorusGeometry(1.5, 0.1, 16, 100);
+            const darkSilkMat = new THREE.MeshStandardMaterial({
+              color: 0x1f1f26,
+              metalness: 0.6,
+              roughness: 0.4,
+            });
+            const ring2 = new THREE.Mesh(ringGeo2, darkSilkMat);
+            ring2.rotation.y = Math.PI / 4;
+            group.add(ring2);
+
+            // Ring 3 (Outer Ivory Accent)
+            const ringGeo3 = new THREE.TorusGeometry(2.1, 0.03, 16, 100);
+            const ivoryMat = new THREE.MeshStandardMaterial({
+              color: 0xf5eedc,
+              metalness: 0.8,
+              roughness: 0.25,
+            });
+            const ring3 = new THREE.Mesh(ringGeo3, ivoryMat);
+            ring3.rotation.z = Math.PI / 5;
+            group.add(ring3);
+
+            // Center Floating Diamond
+            const diamondGeo = new THREE.OctahedronGeometry(0.7, 0);
+            const diamond = new THREE.Mesh(diamondGeo, goldMat);
+            group.add(diamond);
+
+            // Lights
+            const ambient = new THREE.AmbientLight(0xffffff, 0.7);
+            scene.add(ambient);
+            const light1 = new THREE.PointLight(0xffdf80, 2, 20);
+            light1.position.set(3, 4, 5);
+            scene.add(light1);
+            const light2 = new THREE.PointLight(0x8888ff, 0.8, 20);
+            light2.position.set(-4, -3, 3);
+            scene.add(light2);
+
+            function resizeSpatial() {
+              const w = container.clientWidth;
+              const h = container.clientHeight;
+              camera.aspect = w / h;
+              camera.updateProjectionMatrix();
+              renderer.setSize(w, h);
+            }
+            window.addEventListener('resize', resizeSpatial);
+
+            function animateSpatial() {
+              requestAnimationFrame(animateSpatial);
+              if (!isDragging) {
+                rotY += 0.005;
+                rotX += 0.002;
+              }
+              group.rotation.x = rotX;
+              group.rotation.y = rotY;
+
+              diamond.rotation.y += 0.015;
+              diamond.rotation.x += 0.01;
+
+              renderer.render(scene, camera);
+            }
+            animateSpatial();
+            return;
+          } catch (e) {
+            console.warn('Spatial 3D canvas failed:', e);
+          }
+        }
+
+        // 2D Canvas Fallback for Spatial
+        const ctx2 = canvas.getContext('2d');
+        function drawSpatialFallback() {
+          canvas.width = container.clientWidth;
+          canvas.height = container.clientHeight;
+          ctx2.clearRect(0, 0, canvas.width, canvas.height);
+          ctx2.strokeStyle = '#d4af37';
+          ctx2.lineWidth = 2;
+          ctx2.beginPath();
+          ctx2.arc(canvas.width / 2, canvas.height / 2, 80, 0, Math.PI * 2);
+          ctx2.stroke();
+        }
+        drawSpatialFallback();
+      })();
+    </script>
+  </body>
+</html>
